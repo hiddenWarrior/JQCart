@@ -37,7 +37,7 @@ layoutMaker.prototype.getProducts = function(store){
 
 
 layoutMaker.prototype.makeDivOutOfObject=function(item){
-	var div = "<div class='product' id = '"+item.name+"' ><img src='"+item.imgSrc+"'/><label>name:"+item["name"]+"</label><label>price:"+item["price"]+"</label><label>quantity:"+item["quantity"]+"</label>"+this.addLayoutOnProduct(item)+"<input type='hidden' value="+item.name+"/>"+"</div>";//+"<label><input type='Button' id='edit' value='Edit'/><input type='Button' id='delete' value='X' /></div>"//.replace("%name",i.name).replace("%quantity",i.quantity).replace("%price",i.price);
+	var div = "<div class='product' id = '"+item.name+"' ><img src='"+item.imgSrc+"'/><label>name:"+item["name"]+"</label><label>price:"+item["price"]+"$</label><label>quantity:"+item["quantity"]+"</label>"+this.addLayoutOnProduct(item)+"<input type='hidden' value="+item.name+"/>"+"</div>";//+"<label><input type='Button' id='edit' value='Edit'/><input type='Button' id='delete' value='X' /></div>"//.replace("%name",i.name).replace("%quantity",i.quantity).replace("%price",i.price);
 	return div;
 
 

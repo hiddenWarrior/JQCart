@@ -320,7 +320,7 @@ var checkoutController = controllerFactory(function(){
 	layout.addLayoutOnProduct = function(item){
 
 		var TotalPrice = parseInt(item.quantity)*parseInt(item.price);
-		var TotalPriceDiv = "<label> totalPrice:"+TotalPrice+"</label>";
+		var TotalPriceDiv = "<label> totalPrice:"+TotalPrice+"$</label>";
 
 
 		return TotalPriceDiv+"<div class='plusMinusButton'><button style='float:left;' value='"+item.name+"' class='incProductButton'>+</button><button style='float:right;' class='decProductButton' value='"+item.name+"' >-</button></div>"
