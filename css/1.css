@@ -29,6 +29,17 @@ input[type="text"]:active{
 
 }
 
+.unbought:hover{
+	background-color: white;
+	border:1px solid #f36;
+	color:#f36;
+}
+
+.unbought{
+	background-color: #f36;
+
+}
+
 button,input[type="submit"]{
 	text-align: center;
 	border:none;
